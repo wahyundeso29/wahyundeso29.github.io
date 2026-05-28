@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Panda Sports Indonesia | Premium Athletic Equipment & Lifestyle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fdfdfd; }
+        .font-sport { font-family: 'Barlow Condensed', sans-serif; }
+        
+        .hero-sports {
+            background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.9)), 
+                        url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .orange-accent {
+            background-color: #ea580c;
+        }
+
+        .text-orange {
+            color: #ea580c;
+        }
+
+        .border-orange {
+            border-color: #ea580c;
+        }
+
+        .sports-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .sports-card:hover {
+            transform: translateY(-6px);
+            border-bottom: 4px solid #ea580c;
+            box-shadow: 0 20px 25px -5px rgba(234, 88, 12, 0.08);
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <nav class="fixed w-full z-50 bg-slate-950 border-b border-slate-900 shadow-xl">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[#ea580c] rounded-lg flex items-center justify-center shadow-lg shadow-orange-600/20">
+                    <i class="fas fa-running text-white text-xl"></i>
+                </div>
+                <div class="leading-none">
+                    <span class="text-2xl font-sport font-black tracking-wider text-white block uppercase">PANDA SPORTS</span>
+                    <span class="text-[9px] uppercase tracking-[0.3em] font-bold text-orange">Indonesia Corp</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[11px] font-bold uppercase tracking-widest text-slate-400">
+                <a href="#home" class="hover:text-white transition">Beranda</a>
+                <a href="#solutions" class="hover:text-white transition">Divisi Bisnis</a>
+                <a href="#about" class="hover:text-white transition">Visi Kami</a>
+                <a href="#contact" class="hover:text-white transition">Kemitraan</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-sports h-screen flex items-center px-6 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto w-full relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange text-[10px] font-bold mb-8 uppercase tracking-widest">
+                    <i class="fas fa-certificate"></i> Verified Corporate Entity • Premium Distribution Network
+                </div>
+                <h1 class="text-6xl md:text-8xl font-sport font-black text-white mb-8 leading-none uppercase tracking-tight">
+                    Mendobrak Batas <br>Performa <span class="text-orange">Atletik.</span>
+                </h1>
+                <p class="text-lg text-slate-300 mb-12 leading-relaxed max-w-xl font-light">
+                    PT Panda Sports Indonesia menghadirkan produk olahraga, apparel, dan peralatan performa tinggi yang menggabungkan inovasi teknologi tekstil modern dengan fungsionalitas mutakhir demi mendukung para juara.
+                </p>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <a href="#solutions" class="bg-[#ea580c] text-white px-10 py-4 font-bold uppercase text-[11px] tracking-widest hover:bg-white hover:text-slate-900 transition-all text-center rounded shadow-xl shadow-orange-500/20">
+                        Eksplorasi Divisi
+                    </a>
+                    <a href="#contact" class="border border-slate-500 text-white px-10 py-4 font-bold uppercase text-[11px] tracking-widest hover:bg-white hover:text-slate-900 transition-all text-center rounded">
+                        Hubungi Korporasi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="solutions" class="py-32 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+                <div class="max-w-xl">
+                    <h2 class="text-4xl md:text-5xl font-sport font-black text-slate-900 mb-6 uppercase tracking-tight">Ekosistem Industri Olahraga</h2>
+                    <p class="text-slate-500 leading-relaxed font-light border-l-2 border-[#ea580c] pl-8 italic">"Kami berkomitmen membangun rantai distribusi perlengkapan atletik yang kokoh, transparan, dan berstandar global di seluruh nusantara."</p>
+                </div>
+                <div class="text-slate-200 font-sport text-7xl font-black tracking-widest hidden lg:block">ATHLETIC</div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 bg-slate-50 border border-slate-100 rounded-2xl sports-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-[#ea580c] transition-colors">
+                        <i class="fas fa-tshirt text-2xl text-slate-700 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-sport font-bold mb-4 text-slate-900 uppercase tracking-wider">Premium Sportswear</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Produksi dan distribusi pakaian olahraga berteknologi tinggi dengan sirkulasi udara optimal dan material seringan serat karbon.</p>
+                </div>
+                <div class="p-10 bg-slate-50 border border-slate-100 rounded-2xl sports-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-[#ea580c] transition-colors">
+                        <i class="fas fa-dumbbell text-2xl text-slate-700 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-sport font-bold mb-4 text-slate-900 uppercase tracking-wider">Athletic Equipment</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Penyediaan fasilitas dan alat penunjang kebugaran komersial kelas kompetisi dengan ketahanan material bersertifikasi.</p>
+                </div>
+                <div class="p-10 bg-slate-50 border border-slate-100 rounded-2xl sports-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-[#ea580c] transition-colors">
+                        <i class="fas fa-handshake-angle text-2xl text-slate-700 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-sport font-bold mb-4 text-slate-900 uppercase tracking-wider">B2B & Distribution</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Manajemen kemitraan retail berskala masif, pengadaan merchandise klub, dan logistik distribusi korporat yang andal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-32 px-6 bg-slate-950 text-white overflow-hidden relative">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-24 relative z-10">
+            <div class="md:w-1/2">
+                <h3 class="text-5xl font-sport font-black text-white mb-8 uppercase tracking-wider">Sinergi Kekuatan <br>Dan <span class="text-orange italic font-normal">Inovasi Global</span></h3>
+                <p class="text-slate-400 mb-10 text-lg font-light leading-relaxed">Sebagai badan hukum korporat terverifikasi di Indonesia, PT Panda Sports Indonesia memastikan seluruh tata kelola pengadaan barang dan kemitraan regional berjalan dengan transparansi mutlak dan kepatuhan hukum yang ketat.</p>
+                
+                <div class="space-y-6 text-xs tracking-wider uppercase font-semibold font-mono">
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-check-circle text-orange text-lg"></i>
+                        <span class="text-slate-300">Manajemen Rantai Pasok Terstruktur Dan Legal</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-shield-halved text-orange text-lg"></i>
+                        <span class="text-slate-300">Kualitas Kontrol Berstandar Internasional</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop" alt="Premium Sports Gear Fabrication" class="rounded-3xl shadow-2xl grayscale border border-slate-900">
+                    <div class="absolute -bottom-8 -right-8 bg-[#ea580c] p-8 hidden md:block rounded-2xl shadow-xl">
+                        <i class="fas fa-trophy text-4xl text-slate-950"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-white py-32 px-6 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-sport font-black text-slate-900 mb-12 uppercase tracking-tight">Kemitraan Strategis</h2>
+            <p class="text-slate-500 mb-16 text-lg font-light">Kami mengundang para distributor ritel modern, pemilik waralaba, asosiasi olahraga, dan mitra komersial untuk berkolaborasi dan tumbuh bersama jaringan distribusi nasional kami.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left mb-20">
+                <div class="p-10 bg-slate-50 border border-slate-200 rounded-2xl flex flex-col justify-center">
+                    <p class="text-[#ea580c] text-[10px] uppercase tracking-widest mb-4 font-bold">Registered Corporate Entity</p>
+                    <p class="text-slate-800 font-sport text-xl font-bold tracking-wider uppercase leading-relaxed">PT PANDA SPORTS INDONESIA</p>
+                    <p class="text-xs text-slate-400 mt-1">Indonesia</p>
+                </div>
+                <div class="p-10 border border-slate-200 rounded-2xl bg-slate-50 flex flex-col justify-center">
+                    <p class="text-[#ea580c] text-[10px] uppercase tracking-widest mb-4 font-bold">B2B Communications Desk</p>
+                    <p class="text-slate-900 font-bold text-md tracking-widest uppercase">corporate@pandasports.co.id</p>
+                    <p class="text-xs text-slate-400 mt-2">Waktu Operasional: Senin - Jumat (09:00 - 17:00 WIB)</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center pt-20 border-t border-slate-100 gap-10">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-slate-950 flex items-center justify-center rounded-sm border border-orange">
+                        <i class="fas fa-running text-orange text-xs"></i>
+                    </div>
+                    <span class="text-xs font-bold tracking-[0.5em] uppercase text-slate-900 leading-none">PT Panda Sports Indonesia</span>
+                </div>
+                <p class="text-[9px] text-slate-400 uppercase tracking-[0.5em] font-bold">
+                    &copy; 2026 PT Panda Sports Indonesia. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
